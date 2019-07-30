@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	 background: radial-gradient(blue, lightblue);
@@ -43,3 +44,11 @@ body {
 	padding: 15px;
 	margin-right: 150px;
 }
+
+h1 {
+	text-align: center;
+}
+#navbars {
+	text-align: center;
+}
+
