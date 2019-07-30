@@ -45,10 +45,17 @@ body {
 	margin-right: 150px;
 }
 
+
 #erheader {
 	text-align: center;
 }
 #navbars {
 	text-align: center;
+}
+
+#Homeclick {
+	color: white; text-decoration: none;
+	
+
 }
 
