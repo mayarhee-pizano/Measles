@@ -1,0 +1,45 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	 background: radial-gradient(blue, lightblue);
+}
+
+#Title {
+	color: white; 
+	text-shadow: 4px 4px 4px black;
+	margin: 400px;
+}
+
+#vaccine {
+	float: left;
+}
+
+#clinic {
+	float: left;
+}
+
+#header1 {
+	margin-top: 90px;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+
+#header2 {
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+
+#paragraphs1 {
+	background: radial-gradient(lightblue, blue); 
+	border: solid;
+	margin-left: 350px;
+	padding: 15px;
+	margin-right: 150px;
+}
+
+#paragraphs2 {
+	background: radial-gradient(lightblue, blue); 
+	border: solid;
+	margin-left: 350px;
+	padding: 15px;
+	margin-right: 150px;
+}
