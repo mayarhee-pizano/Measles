@@ -48,6 +48,7 @@ body {
 
 #erheader {
 	text-align: center;
+	text-decoration: underline;
 }
 p {
 	color: white;
