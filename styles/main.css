@@ -55,7 +55,22 @@ body {
 
 #Homeclick {
 	color: white; text-decoration: none;
-	
+	position: absolute;
+	left: 59px;
+	text-shadow: 3px 3px 3px black;
+}
 
+#Infoclick {
+	color: white; text-decoration: none;
+	position: absolute;
+	right: 59px;
+	text-shadow: 3px 3px 3px black;
+}
+
+#Contactclick {
+	color: white; text-decoration: none;
+	position: absolute;
+	left: 600px;
+	text-shadow: 3px 3px 3px black;
 }
 
