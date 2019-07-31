@@ -1,7 +1,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	 background: radial-gradient(blue, lightblue);
+	 background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
 }
 
 #Title {
