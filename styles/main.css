@@ -3,7 +3,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	 background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
 }
-
+h1 { text-align: center; }
 #Title {
 	color: white; 
 	text-shadow: 4px 4px 4px black;
@@ -52,6 +52,10 @@ body {
 }
 p {
 	color: white;
+}
+#symptoms {
+	color: white;
+	font-weight: bold;
 }
 #navbars {
 	text-align: center;
@@ -104,4 +108,7 @@ p {
     float: none;
     display: block;
   }
+}
+.circle {
+	color:white;
 }
