@@ -3,7 +3,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	 background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
 }
-
+h1 { text-align: center; }
 #Title {
 	color: white; 
 	text-shadow: 4px 4px 4px black;
@@ -30,7 +30,11 @@ body {
 }
 
 #paragraphs1 {
+
 	background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
+
+	background: radial-gradient(rgba(188, 143, 224, 1), rgba(205, 210, 249, 1)); 
+
 	border: solid;
 	margin-left: 350px;
 	padding: 15px;
@@ -38,7 +42,11 @@ body {
 }
 
 #paragraphs2 {
+
 	background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
+
+	background: radial-gradient(rgba(188, 143, 224, 1), rgba(205, 210, 249, 1)); 
+
 	border: solid;
 	margin-left: 350px;
 	padding: 15px;
@@ -52,6 +60,10 @@ body {
 }
 p {
 	color: white;
+}
+#symptoms {
+	color: white;
+	font-weight: bold;
 }
 #navbars {
 	text-align: center;
@@ -77,4 +89,34 @@ p {
 	left: 600px;
 	text-shadow: 3px 3px 3px black;
 }
+.navbar {
+  width: 100%;
+  background-color:white;
+  overflow: auto;
+}
 
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: rgb(185, 138, 207);
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: white;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.circle {
+	color:white;
+}
