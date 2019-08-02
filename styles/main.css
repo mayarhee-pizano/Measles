@@ -30,7 +30,7 @@ body {
 }
 
 #paragraphs1 {
-	background: radial-gradient(lightblue, blue); 
+	background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
 	border: solid;
 	margin-left: 350px;
 	padding: 15px;
@@ -38,7 +38,7 @@ body {
 }
 
 #paragraphs2 {
-	background: radial-gradient(lightblue, blue); 
+	background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
 	border: solid;
 	margin-left: 350px;
 	padding: 15px;
