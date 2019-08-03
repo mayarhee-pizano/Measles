@@ -3,7 +3,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	 background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
 }
-h1 { text-align: center; }
+#titles { text-align: center; }
 #Title {
 	color: white; 
 	text-shadow: 4px 4px 4px black;
@@ -30,7 +30,11 @@ h1 { text-align: center; }
 }
 
 #paragraphs1 {
+
+	background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
+
 	background: radial-gradient(rgba(188, 143, 224, 1), rgba(205, 210, 249, 1)); 
+
 	border: solid;
 	margin-left: 350px;
 	padding: 15px;
@@ -38,7 +42,11 @@ h1 { text-align: center; }
 }
 
 #paragraphs2 {
+
+	background: linear-gradient(to right, rgba(123, 203, 219, 1), rgba(205, 235, 249, 1));
+
 	background: radial-gradient(rgba(188, 143, 224, 1), rgba(205, 210, 249, 1)); 
+
 	border: solid;
 	margin-left: 350px;
 	padding: 15px;
@@ -61,26 +69,7 @@ p {
 	text-align: center;
 }
 
-#Homeclick {
-	color: white; text-decoration: none;
-	position: absolute;
-	left: 59px;
-	text-shadow: 3px 3px 3px black;
-}
 
-#Infoclick {
-	color: white; text-decoration: none;
-	position: absolute;
-	right: 59px;
-	text-shadow: 3px 3px 3px black;
-}
-
-#Contactclick {
-	color: white; text-decoration: none;
-	position: absolute;
-	left: 600px;
-	text-shadow: 3px 3px 3px black;
-}
 .navbar {
   width: 100%;
   background-color:white;
@@ -94,6 +83,7 @@ p {
   color: rgb(185, 138, 207);
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 .navbar a:hover {
